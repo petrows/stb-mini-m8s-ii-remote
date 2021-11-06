@@ -7,9 +7,13 @@ Used this instruction: [Create remote.conf from scratch](https://forum.libreelec
 
 ## STB and remote
 
+Remote code is `0x40400001`, but some codes are wrong.
+
+
+
 ## How to use
 
-Connect to STB using adb and get shell (you need root, use `su`):
+Connect to STB using ADB and get shell (you need root, use `su`):
 
 ```bash
 adb connect stb.pws
@@ -21,7 +25,9 @@ In local PC upload this `remote.conf`:
 
 ```bash
 adb push remote.conf /sdcard/remote.conf
-``
+```
+
+Apply changed file in ADB shell:
 
 ```bash
 mount -o remount,rw /system
