@@ -9,7 +9,8 @@ Used this instruction: [Create remote.conf from scratch](https://forum.libreelec
 
 Remote code is `0x40400001`, but some codes are wrong.
 
-
+![Side A](stb-side-a.jpg)
+![Side B](stb-side-b.jpg)
 
 ## How to use
 
